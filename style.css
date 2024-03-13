@@ -1,0 +1,32 @@
+.stopwatch-display {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 2rem;
+}
+
+.buttons-section .btn {
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    margin: 0 5px;
+}
+
+/* .buttons-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+} */
+
+.buttons-section .btn-primary { background-color: #007bff; }
+.buttons-section .btn-primary:hover { background-color: #0056b3; }
+
+.buttons-section .btn-warning { background-color: #ffc107; }
+.buttons-section .btn-warning:hover { background-color: #d39e00; }
+
+.buttons-section .btn-danger { background-color: #dc3545; }
+.buttons-section .btn-danger:hover { background-color: #b02a37; }
+
+.buttons-section .btn-secondary { background-color: #6c757d; }
+.buttons-section .btn-secondary:hover { background-color: #565e64; }
